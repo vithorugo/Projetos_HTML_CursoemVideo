@@ -35,6 +35,16 @@
         width: 60%;
         height: 100%;
     }
+
+    form > input[type=submit] {
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    form > a.botao {
+        border-radius: 5px;
+        transition: 0.3s;
+    }
 }
 
 @media only screen and (min-width: 64em) {
@@ -66,5 +76,14 @@
 
     div#formulario > p {
         font-size: 1.2em;
+    }
+
+    form > input[type=submit] {
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    form > a.botao {
+        border-radius: 5px;
     }
 }
